@@ -1,5 +1,5 @@
 [Unit]
-Description=Relay API service
+Description=GPIO API service
 After=network.target
 
 [Service]
@@ -9,7 +9,7 @@ Group=root
 Restart=on-failure
 RestartSec=10
 
-ExecStart=/usr/local/bin/relay-service
+ExecStart=/usr/local/bin/gpio-api-service
 
 [Install]
 WantedBy=multi-user.target
