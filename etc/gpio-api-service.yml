@@ -1,0 +1,7 @@
+gpios:
+- name: Inverter
+  type: relay
+  gpio: 26
+- name: Door Fans
+  type: relay
+  gpio: 27
